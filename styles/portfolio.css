@@ -2,7 +2,7 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;}
@@ -13,10 +13,7 @@
           font-size: 35px;
           font-weight: 700;
 }
-.section-description{
 
-  
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -62,8 +59,7 @@ nav a{
   background-position: bottom right;
 }
 .banner{
-      padding: 30px 30px 0px 15
-      0px;
+      padding: 30px 30px 0px 150px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -71,7 +67,7 @@ nav a{
 .banner-content{
   max-width: 500px;
 }
-.banner.profile-picture{
+.banner .profile-picture{
   width: 500px;
 }
 .banner-greeting{
@@ -136,7 +132,7 @@ main section{
   gap: 50px;
 }
 .resume-item-institute ,.resume-item-description{
-          color: #757575;
+  color: #757575;
 }
 .resume-item-title{
   font-size: 25px;
@@ -144,7 +140,7 @@ main section{
   font-weight: 700;
 }
 .resume-container hr{
-    margin: 30 px;
+    margin: 30px;
 }
 .resume-item-institute{
   margin-bottom: 20px;
@@ -164,10 +160,10 @@ footer{
 .footer-column{
   width: 50%;
 }
-.social-links{
+.social-links a{
   margin-right: 25px;
 }
-.contact input [type="text"] ,.contact input[type="EMAIL"],
+.contact input[type="text"] ,.contact input[type="email"],
  textarea{
   display: block;
   margin-bottom: 24px;
@@ -176,8 +172,4 @@ footer{
   border-radius: 5px;
   background: #fff;
   border: 0;
-}
-
-.contact input{
-  
 }
