@@ -54,9 +54,9 @@ nav a{
 }
 .header{
   background-color: #fff8f3;
-  background-image: url('../images/header_bg.png');
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right , top left;
 }
 .banner{
       padding: 30px 30px 0px 150px;
@@ -130,6 +130,9 @@ main section{
 .resume-container{
   display: flex;
   gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .resume-item-institute ,.resume-item-description{
   color: #757575;
